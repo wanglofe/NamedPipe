@@ -1,0 +1,4 @@
+#!/bin/dash
+
+gcc client.c pipe.c -o client
+gcc master.c pipe.c -o master
